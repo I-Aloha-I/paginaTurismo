@@ -1,0 +1,164 @@
+
+.row{
+    padding:0;
+}
+
+.nav-item a:hover{
+    background: #ef8354;
+}
+
+.slide img{
+    height: 450px;
+}
+
+.carousel-item img{
+    opacity: 0.8;
+}
+
+.titulo-slider{
+    font-style: italic;
+    margin-bottom: 0;
+    font-size: 80px;
+    font-weight: bold;
+    color: #151D3B;
+}
+
+.subtitulo-slider{
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    height: 80px;
+    color: #d7d3b5;
+}
+
+.row_carousel_texto{
+    background-color: #93b49e;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#carouselSlidesOnly{
+    box-shadow: /*3px 3px rgb(125, 125, 106),*/ -1em 1em 0.6em rgb(125, 125, 106);
+    border-radius: 25px;
+}
+
+.img_carousel_contenido{
+    border-radius: 25px;
+}
+
+.row_cards_figures_offcanva{
+    background-color: #d5a48f;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.figure-img{
+    width: 100%;
+    height: 150px;
+    border: 3px solid #6EBF8B;
+}
+
+.figure_1, .figure_3{
+    margin-top: 40px;
+}
+
+.figure_2, .figure_4{
+    margin-top: 30px;
+}
+
+.figure-caption{
+    background-color: #6EBF8B;
+    color: white;
+    font-size: 18px;
+}
+
+.card-title{
+    color: #6EBF8B;
+    font-weight: bold;
+}
+
+.card-body{
+    background-color: #242121;
+    color: white;
+}
+
+.row_contenido{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #93b49e;
+}
+
+.parrafo{
+    text-align: justify;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.titulo_footer{
+    color: #ef8354;
+}
+
+/*----------------------------------*/
+
+.icons{
+    display: flex;
+    column-gap: 250px;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property:
+    outline-offset, outline-color, background-color;
+    transition-duration: .25s;
+}
+
+.icon:hover{
+    outline-offset: 4px;
+}
+
+.icon:hover i{
+    animation: shake .25s;
+}
+
+.icon--instagram:hover{
+    background-image:
+    radial-gradient(circle at 30% 107%,
+    #fdf497 0%, #fdf497 5%,
+    #fd5949 45%, #d6249f 60%,
+    #285AEB 90%);
+    outline-color: #a02d76;
+}
+
+.icon--twitter:hover{
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+
+.icon--twitter{
+    margin-right: 15px;
+}
+
+.icon--facebook:hover{
+    background-color: #0077b5;
+    outline-color: #0077b5;
+}
+
+.icon--facebook{
+    margin-right: 15px;
+}
+
+@keyframes shake{
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+}

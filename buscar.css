@@ -1,0 +1,11 @@
+
+.formulario{
+    font-size: 27px;
+    max-width: 25em;
+    padding: 1.3em;
+    margin: 0 auto;
+    background-color: rgba(120, 119, 123, 0.3);
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(0,0,0,0.85);
+    margin-bottom: 50px;
+}

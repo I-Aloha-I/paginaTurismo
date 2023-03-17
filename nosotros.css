@@ -1,0 +1,130 @@
+
+.nav-item a:hover{
+    background: #ef8354;
+}
+
+.slide img{
+    height: 450px;
+}
+
+.carousel-item img{
+    opacity: 0.8;
+}
+
+.titulo-slider{
+    font-style: italic;
+    margin-bottom: 0;
+    font-size: 80px;
+    font-weight: bold;
+    color: #151D3B;
+}
+
+.subtitulo-slider{
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    height: 80px;
+    color: #d7d3b5;
+}
+
+.parrafo_contenido{
+    font-size: 25px;
+    text-align: justify;
+}
+
+.parrafo_contenido_1{
+    border: 5px dashed #ef8354;
+    padding: 15px;
+}
+
+.parrafo_contenido_2{
+    border: 5px dashed #6EBF8B;
+    padding: 15px;
+}
+
+.img_izq{
+    border: 5px solid #ef8354;
+}
+
+.img_der{
+    border: 5px solid #6EBF8B;
+}
+
+.accordion-button{
+    background-color: #ef8354;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.accordion-body{
+    color: white;
+}
+
+.titulo_footer{
+    color: #ef8354;
+}
+
+/*----------------------------------*/
+
+.icons{
+    display: flex;
+    column-gap: 250px;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property:
+    outline-offset, outline-color, background-color;
+    transition-duration: .25s;
+}
+
+.icon:hover{
+    outline-offset: 4px;
+}
+
+.icon:hover i{
+    animation: shake .25s;
+}
+
+.icon--instagram:hover{
+    background-image:
+    radial-gradient(circle at 30% 107%,
+    #fdf497 0%, #fdf497 5%,
+    #fd5949 45%, #d6249f 60%,
+    #285AEB 90%);
+    outline-color: #a02d76;
+}
+
+.icon--twitter:hover{
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+
+.icon--twitter{
+    margin-right: 15px;
+}
+
+.icon--facebook:hover{
+    background-color: #0077b5;
+    outline-color: #0077b5;
+}
+
+.icon--facebook{
+    margin-right: 15px;
+}
+
+@keyframes shake{
+    10%{transform: rotate(15deg);}
+    20%{transform: rotate(-15deg);}
+    30%{transform: rotate(15deg);}
+    40%{transform: rotate(-15deg);}
+}
